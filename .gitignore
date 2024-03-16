@@ -1,0 +1,12 @@
+
+rest/__pycache__/
+
+grpc/pb/__pycache__/
+
+graphql/__pycache__/
+
+graphql/cosine_similarity/__pycache__/
+
+grpc/cosine_similarity/__pycache__/
+
+rest/cosine_similarity/__pycache__/

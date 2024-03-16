@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package cosine_sim;
+
+service CosineSimService {
+  rpc calc_cosine_sim (CosineSimRequest) returns (CosineSimResponse);
+}
+
+message CosineSimRequest {
+    string v1 = 1;
+    string v2 = 2;
+}
+
+message CosineSimResponse {
+    float cosinesim = 1;
+}

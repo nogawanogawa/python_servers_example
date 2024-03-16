@@ -1,0 +1,17 @@
+version: '3'
+services:
+  rest:
+    build: ./rest
+    tty: true
+    volumes:
+      - ./rest:/src
+  grpc:
+    build: ./grpc
+    tty: true
+    volumes:
+      - ./grpc:/src
+  graphql:
+    build: ./graphql
+    tty: true
+    volumes:
+      - ./graphql:/src
